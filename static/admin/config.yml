@@ -8,7 +8,10 @@ public_folder: /img
 collections:
   - name: "pages"
     label: "pages"
-    file: "src/pages/index.js"
+    files: 
+      - label: "Home Page"
+      name: "homePage"
+      file: "content/home.md"
     fields:
       - { label: "Content Title", name: "title", widget: "string" }
       - {
