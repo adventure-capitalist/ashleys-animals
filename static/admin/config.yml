@@ -6,7 +6,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "home page"
     label: 'home page'
         name: 'homePage'
         file: 'src/pages/index.js'
