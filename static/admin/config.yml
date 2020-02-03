@@ -9,7 +9,7 @@ collections:
   - name: "pages"
     label: "pages"
     folder: "src/pages"
-    files: [index.js]
+    files: { index.js }
     fields:
       - { label: "Content Title", name: "title", widget: "string" }
       - {
