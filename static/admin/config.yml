@@ -6,10 +6,10 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "homePage"
-    label: "home page"
+  - name: "pages"
+    label: "pages"
     folder: "src/pages"
-    files: "src/pages/index.js"
+    files: [index.js]
     fields:
       - { label: "Content Title", name: "title", widget: "string" }
       - {
