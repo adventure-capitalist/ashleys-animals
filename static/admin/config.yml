@@ -10,13 +10,9 @@ collections:
     label: "pages"
     files: 
       - label: "Home Page"
-      name: "homePage"
-      file: "content/home.md"
-    fields:
-      - { label: "Content Title", name: "title", widget: "string" }
-      - {
-          label: "Content Body",
-          name: "body",
-          widget: "markdown",
-          option: { linkAttrs: { target: _blank, rel: noreferrer noopener } },
+        name: "homePage"
+        file: "content/home.md"
+        fields:
+          - { label: "Content Title", name: "title", widget: "string" }
+          - { label: "Content Body", name: "body", widget: "markdown", option: { linkAttrs: target: _blank, rel: noreferrer noopener } },
         }
