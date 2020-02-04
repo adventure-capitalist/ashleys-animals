@@ -7,12 +7,15 @@ public_folder: /img
 
 collections:
   - name: "pages"
+    identifier_field: title
+    extension: md
     label: "pages"
-    create: true
-    files:
-      - label: "Home Page"
-        name: "homepage"
-        file: "content/home.md"
+    folder:
+      - label: "Site content"
+        create: true
+        slug: "{{ title }}"
+        name: "page"
+        file: "content"
         fields:
           - { label: Content Title, name: title, widget: string }
           - { label: Content Body, name: body, widget: markdown }
