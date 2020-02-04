@@ -14,10 +14,10 @@ collections:
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Contact Header", name: "contactheader", widget: "string"}
       - { label: "Contact body", name: "contactbody", widget: "markdown"}
-    - label: "Articles"
-      name: "article"
-      widget: "list"
-      fields:
+  - label: "Articles"
+    name: "article"
+    widget: "list"
+    fields:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Content", name: "content", widget: "markdown"}git 
         - { label: "Photo", name: "photo", widget: "image"}
