@@ -6,18 +6,21 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "Home page"
-    label: "homepage"
-    folder: content
-    fields:
-      - { label: "Banner Header", name: "bannerheader", widget: "string" }
-      - { label: "Subtitle", name: "subtitle", widget: "string" }
-      - { label: "Contact Header", name: "contactheader", widget: "string"}
-      - { label: "Contact body", name: "contactbody", widget: "markdown"}
-  - label: "Articles"
-    name: "article"
-    widget: "list"
-    fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Content", name: "content", widget: "markdown"}git 
-        - { label: "Photo", name: "photo", widget: "image"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "homepage"
+        label: "Home page"
+        folder: content
+        fields:
+          - { label: "Banner Header", name: "bannerheader", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Contact Header", name: "contactheader", widget: "string" }
+          - { label: "Contact body", name: "contactbody", widget: "markdown" }
+      - label: "Articles"
+        name: "article"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Photo", name: "photo", widget: "image" }
