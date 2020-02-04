@@ -1,6 +1,6 @@
 ---
 title: Adoption Process
-image: /img/pic02.jpeg
+image: /img/pic03.jpg
 ---
 We aim to keep the adoption process as straight forward and simple as
 
