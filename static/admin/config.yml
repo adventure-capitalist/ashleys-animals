@@ -8,6 +8,7 @@ public_folder: /img
 collections:
   - name: "pages"
     label: "pages"
+    create: true
     files:
       - label: "Home Page"
         name: "homepage"
