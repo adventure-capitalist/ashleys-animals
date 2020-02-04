@@ -1,6 +1,9 @@
 backend:
   name: github
   repo: adventure-capitalist/ashleys-animals
+  branch: master
+  auth_endpoint: auth
+  site-domain: https://modest-noether-9da66c.netlify.com/
 
 media_folder: static/img
 public_folder: /img
