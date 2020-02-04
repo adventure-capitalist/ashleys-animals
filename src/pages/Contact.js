@@ -6,7 +6,7 @@ export default () => (
       <section>
         <form
           name="Contact"
-          action="/thanks/"
+          action="/Thanks/"
           method="post"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
