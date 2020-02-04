@@ -4,7 +4,7 @@ export default () => (
   <section id="contact">
     <div className="inner">
       <section>
-        <form method="post" action="#">
+        <form name="Contact" method="post" action="#" netlify>
           <div className="fields">
             <div className="field half">
               <label htmlFor="name">Name</label>
