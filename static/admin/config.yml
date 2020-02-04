@@ -7,10 +7,9 @@ public_folder: /img
 
 collections:
   - name: "pages"
-    identifier_field: title
-    extension: md
     label: "pages"
-    folder:
+    create: true
+    files:
       - label: "Site content"
         create: true
         slug: "{{ title }}"
