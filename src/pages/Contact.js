@@ -4,7 +4,14 @@ export default () => (
   <section id="contact">
     <div className="inner">
       <section>
-        <form name="Contact" method="post" action="#" netlify>
+        <form
+          name="Contact"
+          action="/thanks/"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="fields">
             <div className="field half">
               <label htmlFor="name">Name</label>
