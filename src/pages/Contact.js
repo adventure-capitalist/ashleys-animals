@@ -1,4 +1,5 @@
 import React from "react"
+import Thanks from "./Thanks"
 
 export default () => (
   <section id="contact">
