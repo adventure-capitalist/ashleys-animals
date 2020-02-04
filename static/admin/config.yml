@@ -16,6 +16,16 @@ collections:
         name: "page"
         file: "content"
         fields:
-          - { label: Content Title, name: title, widget: string }
-          - { label: Content Body, name: body, widget: markdown }
-          - { label: Image, name: image, widget: image }
+          - {
+              label: Content Title,
+              name: title,
+              widget: string,
+              allow_add: true,
+            }
+          - {
+              label: Content Body,
+              name: body,
+              widget: markdown,
+              allow_add: true,
+            }
+          - { label: Image, name: image, widget: image, allow_add: true }
