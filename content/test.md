@@ -1,6 +1,6 @@
 ---
 title: Our Animals
-image: /img/pic03.jpg
+image: /img/pic04.jpg
 ---
 We regularly take in all kinds of small animals. We specialise in
 
