@@ -6,30 +6,18 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: pages
-    label: "pages"
-    label_singlar: page
+  - name: "Home page"
+    label: "homepage"
     folder: content
-    create: true
-    fields:
-      - {
-          label: Content Title,
-          name: title,
-          widget: string,
-          allow_add: true,
-          required: true,
-        }
-      - {
-          label: Content Body,
-          name: body,
-          widget: markdown,
-          allow_add: true,
-          required: false,
-        }
-      - {
-          label: Image,
-          name: image,
-          widget: image,
-          allow_add: true,
-          required: false,
-        }
+     fields:
+      - { label: "Banner Header", name: "bannerheader", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
+      - { label: "Contact Header", name: "contactheader", widget: "string"}
+      - { label: "Contact body", name: "contactbody", widget: "markdown"}
+    - label: "Articles"
+      name: "article"
+      widget: "list"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Content", name: "content", widget: "markdown"}
+        - { label: "Photo", name: "photo", widget: "image"}
