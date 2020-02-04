@@ -6,26 +6,30 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "pages"
+  - name: pages
     label: "pages"
+    label_singlar: page
+    folder: content
     create: true
-    files:
-      - label: "Site content"
-        create: true
-        slug: "{{ title }}"
-        name: "page"
-        file: "content"
-        fields:
-          - {
-              label: Content Title,
-              name: title,
-              widget: string,
-              allow_add: true,
-            }
-          - {
-              label: Content Body,
-              name: body,
-              widget: markdown,
-              allow_add: true,
-            }
-          - { label: Image, name: image, widget: image, allow_add: true }
+    fields:
+      - {
+          label: Content Title,
+          name: title,
+          widget: string,
+          allow_add: true,
+          required: true,
+        }
+      - {
+          label: Content Body,
+          name: body,
+          widget: markdown,
+          allow_add: true,
+          required: false,
+        }
+      - {
+          label: Image,
+          name: image,
+          widget: image,
+          allow_add: true,
+          required: false,
+        }
