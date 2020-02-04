@@ -1,7 +1,6 @@
 import React from "react"
-import Thanks from "./Thanks"
 
-export default () => (
+const Contact = props => (
   <section id="contact">
     <div className="inner">
       <section>
@@ -69,3 +68,5 @@ export default () => (
     </div>
   </section>
 )
+
+export default Contact
