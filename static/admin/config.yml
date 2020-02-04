@@ -5,7 +5,6 @@ backend:
   auth_endpoint: auth
   api_root: https://api.github.com
   base_url: https://modest-noether-9da66c.netlify.com/auth
-  site_domain: https://modest-noether-9da66c.netlify.com/
 
 media_folder: static/img
 public_folder: /img
