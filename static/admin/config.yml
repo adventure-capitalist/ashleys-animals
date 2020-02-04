@@ -9,7 +9,7 @@ collections:
   - name: "Home page"
     label: "homepage"
     folder: content
-     fields:
+    fields:
       - { label: "Banner Header", name: "bannerheader", widget: "string" }
       - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Contact Header", name: "contactheader", widget: "string"}
@@ -19,5 +19,5 @@ collections:
       widget: "list"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Content", name: "content", widget: "markdown"}
+        - { label: "Content", name: "content", widget: "markdown"}git 
         - { label: "Photo", name: "photo", widget: "image"}
