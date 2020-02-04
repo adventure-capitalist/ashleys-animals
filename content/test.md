@@ -1,4 +1,9 @@
 ---
-title: test
+title: Our Animals
+image: /img/pic03.jpg
 ---
-test1
+We regularly take in all kinds of small animals. We specialise in
+
+small mammals such as mice, rats, hamsters and guinea pigs, however, we
+
+have also helped plenty of reptiles over the years.
