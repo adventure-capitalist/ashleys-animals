@@ -1,8 +1,4 @@
 import React from "react"
-import rat from "./styles/images/pic02.jpeg"
-import hamster from "./styles/images/pic01.jpg"
-import turtle from "./styles/images/pic03.jpg"
-import guineaPig from "./styles/images/pic04.jpg"
 
 const One = props => (
   <section id="one" className="tiles">
