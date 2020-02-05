@@ -1,7 +1,57 @@
 ---
-bannerheader: This is a header
-subtitle: subtitle
-contactheader: Contact Us
-contactbody: This is a body
+branding:
+  - bannerheader: Welcome to Ashley's Animal Adoption
+    contactbody: |-
+      That's great! Please tell us a bit about yourself using the form below
+
+      and we will be get back to you with the next steps. Feel free to ask
+
+      any questions you might have at this stage. We'll be happy to answer
+
+      each and every one.
+    contactheader: Interested in Adopting?
+    subtitle: |-
+      We strive to help rehome smaller animals
+
+      <br/>
+
+      that might be turned away by traditional animal shelters.
+article:
+  - content: |-
+      In the words of Walt Disney: "it all started with a mouse." Ashley
+
+      started helping small animals in need in 2013 and since then, every
+
+      year she has helped around 50 small animals find their forever homes.
+    photo: /img/pic01.jpg
+    title: About
+  - content: |-
+      We regularly take in all kinds of small animals. We specialise in
+
+      small mammels such as mice, rats, hamsters and guinea pigs, however we
+
+      have also helped plenty of reptiles over the years.
+    photo: /img/pic04.jpg
+    title: Our Animals
+  - content: |-
+      We aim to keep the adoption process as straight forward and simple as
+
+      possible. Our adoptive families will just need to prove that they can
+
+      provide high quality care to our animals, and that they are
+
+      knowledgable about the individual needs of each species. We will help
+
+      to educate wherever possible.
+    photo: /img/pic03.jpg
+    title: Adoption Process
+  - content: |-
+      Ashley's Animal Adoption is a registered charity in the UK. We welcome
+
+      donations of any size or shape as they help us to continue to resue
+
+      small animals in need of our help.
+    photo: /img/pic02.jpeg
+    title: Donate
 ---
 
