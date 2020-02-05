@@ -7,7 +7,7 @@ content:
 
       and we will be get back to you with the next steps. Feel free to ask
 
-      any questions you might have at this stagecon. We'll be happy to answer
+      any questions you might have at this stage. We'll be happy to answer
 
       each and every one.
     contactheader: Interested in Adopting?
