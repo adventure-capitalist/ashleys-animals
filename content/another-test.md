@@ -28,7 +28,7 @@ article:
   - content: |-
       We regularly take in all kinds of small animals. We specialise in
 
-      small mammels such as mice, rats, hamsters and guinea pigs, however we
+      small mammals such as mice, rats, hamsters and guinea pigs, however, we
 
       have also helped plenty of reptiles over the years.
     photo: /img/pic04.jpg
