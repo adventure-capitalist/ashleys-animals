@@ -14,7 +14,7 @@ content:
     subtitle: |-
       We strive to help rehome smaller animals
 
-      <br/>
+
 
       that might be turned away by traditional animal shelters.
 article:
@@ -55,3 +55,4 @@ article:
     headline: Donate
     photo: /img/pic02.jpeg
 ---
+
