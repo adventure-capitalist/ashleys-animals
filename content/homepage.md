@@ -1,7 +1,7 @@
 ---
 title: Home page
 content:
-  - bannerheader: Welcome to Ashley's Animal Adoption
+  - bannerheader: Welcome to Testy McTesterson
     contactbody: |-
       That's great! Please tell us a bit about yourself using the form below
 
