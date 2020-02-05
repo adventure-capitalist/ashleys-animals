@@ -12,8 +12,8 @@ collections:
     folder: content
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - label: "Site"
-        name: "site"
+      - label: "Content"
+        name: "content"
         widget: list
         fields:
           - { label: "Banner Header", name: "bannerheader", widget: "string" }

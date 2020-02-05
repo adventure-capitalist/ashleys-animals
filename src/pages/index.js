@@ -62,7 +62,8 @@ export const query = graphql`
           childMarkdownRemark {
             frontmatter {
               title
-              image
+              site
+              article
             }
           }
         }
