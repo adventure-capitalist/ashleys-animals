@@ -5,5 +5,23 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    // ... other plugins
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/img`,
+        name: "img",
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      },
+    },
+    "gatsby-transformer-remark",
+    `gatsby-plugin-netlify-cms`,
+  ],
 }

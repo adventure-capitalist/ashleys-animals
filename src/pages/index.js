@@ -6,13 +6,14 @@ import Main from "./Main"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
-}
+// if (typeof window !== "undefined") {
+//   eslint-disable-next-line global-require
+//   require("smooth-scroll")('a[href*="#"]')
+// }
 
 const Index = props => {
-  // const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
+  const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
+
   return (
     <main className="is-preload">
       <div id="wrapper">
@@ -28,10 +29,20 @@ const Index = props => {
         </header>
 
         {/* Banner */}
-        <Banner />
+        <Banner
+          test={data.title}
+          header={data.bannerheader}
+          subtitle={data.subtitle}
+        />
 
         {/* Main */}
-        <Main />
+        <Main
+          contactheader={data.contactheader}
+          contactbody={data.contactbody}
+          articleheadline={data.headline}
+          articlecontent={data.content}
+          articlephoto={data.photo}
+        />
         {/* Contact */}
         <Contact />
 
@@ -52,20 +63,23 @@ const Index = props => {
 }
 export default Index
 
-// export const query = graphql`
-//   query {
-//     allFile(
-//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
-//     ) {
-//       edges {
-//         node {
-//           childMarkdownRemark {
-//             frontmatter {
-//               title
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-//`
+export const query = graphql`
+  query {
+    allFile(
+      filter: {
+        sourceInstanceName: { eq: "content" }
+        name: { eq: "homepage" }
+      }
+    ) {
+      edges {
+        node {
+          childMarkdownRemark {
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+    }
+  }
+`

@@ -9,7 +9,7 @@ collections:
   - name: "home"
     label: "Home page"
     identifier_field: "title"
-    folder: content
+    file: "content/home-page.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - label: "Content"
