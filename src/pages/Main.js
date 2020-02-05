@@ -2,9 +2,11 @@ import React from "react"
 import One from "./One"
 import Two from "./Two"
 
-export default () => (
+const Main = props => (
   <div id="main">
-    <One />
-    <Two />
+    <One article={props.article} />
+    <Two contactheader={props.contactheader} contactbody={props.contactbody} />
   </div>
 )
+
+export default Main

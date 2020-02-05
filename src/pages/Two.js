@@ -1,19 +1,15 @@
 import React from "react"
 
-export default () => (
+const Two = props => (
   <div id="CTA">
     <section id="two">
       <div className="inner description">
         <header className="major">
-          <h2>Interested in Adopting?</h2>
+          <h2>{props.contactheader}</h2>
         </header>
-        <p>
-          That's great! Please tell us a bit about yourself using the form below
-          and we will be get back to you with the next steps. Feel free to ask
-          any questions you might have at this stage. We'll be happy to answer
-          each and every one.
-        </p>
+        <p>{props.contactbody}</p>
       </div>
     </section>
   </div>
 )
+export default Two

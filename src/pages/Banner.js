@@ -1,13 +1,13 @@
 import React from "react"
 
-export default () => (
+const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
-        <h1>{test}</h1>
+        <h1>{props.header}</h1>
       </header>
       <div className="content">
-        <p>{test}</p>
+        <p>{props.subtitle}</p>
         <ul className="actions">
           <li>
             <a href="#two" className="button next scrolly">
@@ -19,3 +19,4 @@ export default () => (
     </div>
   </section>
 )
+export default Banner

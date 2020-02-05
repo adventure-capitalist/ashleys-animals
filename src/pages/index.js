@@ -20,7 +20,7 @@ const Index = props => {
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            <h1>{data.title}</h1>
+            {/* <h1>{data.title}</h1> */}
             <strong>Ashley's</strong> <span>Animal Adoption</span>
           </Link>
           <nav>
@@ -31,17 +31,15 @@ const Index = props => {
         {/* Banner */}
         <Banner
           test={data.title}
-          header={data.bannerheader}
-          subtitle={data.subtitle}
+          header={data.content[0].bannerheader}
+          subtitle={data.content[0].subtitle}
         />
 
         {/* Main */}
         <Main
-          contactheader={data.contactheader}
-          contactbody={data.contactbody}
-          articleheadline={data.headline}
-          articlecontent={data.content}
-          articlephoto={data.photo}
+          contactheader={data.content[0].contactheader}
+          contactbody={data.content[0].contactbody}
+          article={data.article}
         />
         {/* Contact */}
         <Contact />
@@ -66,7 +64,10 @@ export default Index
 export const query = graphql`
   query {
     allFile(
-      filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
+      filter: {
+        sourceInstanceName: { eq: "content" }
+        name: { eq: "homepage" }
+      }
     ) {
       edges {
         node {

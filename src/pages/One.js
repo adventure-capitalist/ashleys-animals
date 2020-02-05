@@ -4,77 +4,60 @@ import hamster from "./styles/images/pic01.jpg"
 import turtle from "./styles/images/pic03.jpg"
 import guineaPig from "./styles/images/pic04.jpg"
 
-export default () => (
+const One = props => (
   <section id="one" className="tiles">
     <article>
       <span className="image">
-        <img src={hamster} alt="" />
+        <img src={props.article[0].photo} alt="" />
       </span>
       <header className="major">
         <h3>
           <a href="" className="link">
-            About
+            {props.article[0].headline}
           </a>
         </h3>
-        <p>
-          In the words of Walt Disney: "it all started with a mouse." Ashley
-          started helping small animals in need in 2013 and since then, every
-          year she has helped around 50 small animals find their forever homes.
-        </p>
+        <p>{props.article[0].content}</p>
       </header>
     </article>
     <article>
       <span className="image">
-        <img src={guineaPig} alt="" />
+        <img src={props.article[1].photo} alt="" />
       </span>
       <header className="major">
         <h3>
           <a href="" className="link">
-            Our Animals
+            {props.article[1].headline}
           </a>
         </h3>
-        <p>
-          We regularly take in all kinds of small animals. We specialise in
-          small mammels such as mice, rats, hamsters and guinea pigs, however we
-          have also helped plenty of reptiles over the years.
-        </p>
+        <p>{props.article[1].content}</p>
       </header>
     </article>
     <article>
       <span className="image">
-        <img src={turtle} alt="" />
+        <img src={props.article[2].photo} alt="" />
       </span>
       <header className="major">
         <h3>
           <a href="" className="link">
-            Adoption Process
+            {props.article[2].headline}
           </a>
         </h3>
-        <p>
-          We aim to keep the adoption process as straight forward and simple as
-          possible. Our adoptive families will just need to prove that they can
-          provide high quality care to our animals, and that they are
-          knowledgable about the individual needs of each species. We will help
-          to educate wherever possible.
-        </p>
+        <p>{props.article[2].content}</p>
       </header>
     </article>
     <article>
       <span className="image">
-        <img src={rat} alt="" />
+        <img src={props.article[3].photo} alt="" />
       </span>
       <header className="major">
         <h3>
           <a href="" className="link">
-            Donate
+            {props.article[3].headline}
           </a>
         </h3>
-        <p>
-          Ashley's Animal Adoption is a registered charity in the UK. We welcome
-          donations of any size or shape as they help us to continue to resue
-          small animals in need of our help.
-        </p>
+        <p>{props.article[3].content}</p>
       </header>
     </article>
   </section>
 )
+export default One
