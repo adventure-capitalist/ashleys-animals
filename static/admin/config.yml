@@ -10,7 +10,6 @@ collections:
     label: "Home page"
     identifier_field: "title"
     folder: content
-    create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - label: "Site"
