@@ -12,14 +12,14 @@ if (typeof window !== "undefined") {
 }
 
 const Index = props => {
-  const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
+  // const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
   return (
     <main className="is-preload">
       <div id="wrapper">
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            <h1>{data.title}</h1>
+            {/* <h1>{data.title}</h1> */}
             <strong>Ashley's</strong> <span>Animal Adoption</span>
           </Link>
           <nav>
@@ -52,22 +52,20 @@ const Index = props => {
 }
 export default Index
 
-export const query = graphql`
-  query {
-    allFile(
-      filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
-    ) {
-      edges {
-        node {
-          childMarkdownRemark {
-            frontmatter {
-              title
-              site
-              article
-            }
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query {
+//     allFile(
+//       filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
+//     ) {
+//       edges {
+//         node {
+//           childMarkdownRemark {
+//             frontmatter {
+//               title
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+//`

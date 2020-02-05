@@ -25,6 +25,6 @@ collections:
         widget: "list"
         identifier_field: title
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Headline", name: "headline", widget: "string" }
           - { label: "Content", name: "content", widget: "markdown" }
           - { label: "Photo", name: "photo", widget: "image" }
