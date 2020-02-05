@@ -2,14 +2,14 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: static/img
-public_folder: /img
+media_folder: static/content
+public_folder: /content
 
 collections:
   - name: "home"
     label: "Home page"
     identifier_field: "title"
-    file: "content/home-page.md"
+    file: "content/homepage.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - label: "Content"

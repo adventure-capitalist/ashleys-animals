@@ -20,7 +20,7 @@ const Index = props => {
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            {/* <h1>{data.title}</h1> */}
+            <h1>{data.title}</h1>
             <strong>Ashley's</strong> <span>Animal Adoption</span>
           </Link>
           <nav>
@@ -66,16 +66,24 @@ export default Index
 export const query = graphql`
   query {
     allFile(
-      filter: {
-        sourceInstanceName: { eq: "content" }
-        name: { eq: "homepage" }
-      }
+      filter: { sourceInstanceName: { eq: "content" }, name: { eq: "home" } }
     ) {
       edges {
         node {
           childMarkdownRemark {
             frontmatter {
               title
+              content {
+                bannerheader
+                subtitle
+                contactheader
+                contactbody
+              }
+              article {
+                headline
+                content
+                photo
+              }
             }
           }
         }
