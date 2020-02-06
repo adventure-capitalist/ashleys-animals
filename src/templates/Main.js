@@ -4,7 +4,7 @@ import Two from "./Two"
 
 const Main = props => (
   <div id="main">
-    <One article={props.article} />
+    <One a={props.article} />
     <Two contactheader={props.contactheader} contactbody={props.contactbody} />
   </div>
 )
