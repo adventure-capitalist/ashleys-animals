@@ -24,7 +24,7 @@ article:
       started helping small animals in need in 2013 and since then, every
 
       year she has helped around 50 small animals find their forever homes.
-    headline: About
+    headline: Aboooot
     photo: /img/pic01.jpg
   - content: |-
       We regularly take in all kinds of small animals. We specialise in
