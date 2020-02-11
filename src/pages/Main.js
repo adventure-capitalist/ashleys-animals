@@ -1,5 +1,5 @@
 import React from "react"
-import One from "./Services"
+import Services from "./Services"
 import Two from "./Two"
 
 const Main = props => (
