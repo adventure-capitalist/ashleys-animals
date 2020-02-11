@@ -55,4 +55,3 @@ article:
     headline: Donate
     photo: /img/pic02.jpeg
 ---
-

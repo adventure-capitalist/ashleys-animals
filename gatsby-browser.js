@@ -1,1 +1,1 @@
-import "./src/templates/styles/main.css"
+import "./src/pages/styles/main.css"

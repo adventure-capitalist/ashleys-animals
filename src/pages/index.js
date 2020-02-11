@@ -6,21 +6,14 @@ import Main from "./Main"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
-// if (typeof window !== "undefined") {
-//   eslint-disable-next-line global-require
-//   require("smooth-scroll")('a[href*="#"]')
-// }
-
 const Index = props => {
   const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
-
   return (
     <main className="is-preload">
       <div id="wrapper">
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            {/* <h1>{data.title}</h1> */}
             <strong>Ashley's</strong> <span>Animal Adoption</span>
           </Link>
           <nav>
@@ -30,7 +23,7 @@ const Index = props => {
 
         {/* Banner */}
         <Banner
-          test={data.title}
+          test={data}
           header={data.content[0].bannerheader}
           subtitle={data.content[0].subtitle}
         />

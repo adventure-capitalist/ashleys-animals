@@ -9,7 +9,8 @@ collections:
   - name: "home"
     label: "Home page"
     identifier_field: "title"
-    file: "public/admin/content/home-page.md"
+    folder: "content"
+    file: "public/admin/content/homepage.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - label: "Content"

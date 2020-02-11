@@ -1,10 +1,9 @@
 import React from "react"
 
-const One = props => {
-  var articles = props.a
+const Services = props => {
   return (
     <section id="one" class="tiles">
-      {articles.map((article, i) => {
+      {props.a.map((article, i) => {
         return (
           <article>
             <span className="image">
@@ -24,4 +23,4 @@ const One = props => {
     </section>
   )
 }
-export default One
+export default Services

@@ -1,10 +1,10 @@
 import React from "react"
-import One from "./One"
+import One from "./Services"
 import Two from "./Two"
 
 const Main = props => (
   <div id="main">
-    <One a={props.article} />
+    <Services a={props.article} />
     <Two contactheader={props.contactheader} contactbody={props.contactbody} />
   </div>
 )
