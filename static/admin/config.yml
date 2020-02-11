@@ -8,12 +8,13 @@ public_folder: /img
 collections:
   - name: "home"
     label: "Home page"
+    create: true
     identifier_field: "title"
     folder: "content"
     file: "public/admin/content/homepage.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - label: "Content"
+      - label: "content"
         name: "content"
         widget: list
         fields:
