@@ -42,7 +42,7 @@ export default () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy; Ashley's Animal Adoption</li>
+        <li>&copy; aiMS Achved</li>
         <li>
           Design:
           <a href="https://planetwidecity.com" target="_blank">

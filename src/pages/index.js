@@ -2,7 +2,6 @@ import React from "react"
 import Banner from "./Banner"
 import Contact from "./Contact"
 import Footer from "./Footer"
-import Main from "./Main"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
 
@@ -14,7 +13,7 @@ const Index = props => {
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            <strong>Ashley's</strong> <span>Animal Adoption</span>
+            <strong>aiMS</strong> <span>acheived</span>
           </Link>
           <nav>
             <a href="/Menu">Menu</a>
@@ -29,11 +28,39 @@ const Index = props => {
         />
 
         {/* Main */}
-        <Main
-          contactheader={data.content[0].contactheader}
-          contactbody={data.content[0].contactbody}
-          article={data.article}
-        />
+
+        <div id="main">
+          <section id="one" class="tiles">
+            {data.article.map((article, i) => {
+              return (
+                <article>
+                  <span className="image">
+                    <img src={article.photo} alt="" />
+                  </span>
+                  <header className="major">
+                    <h3>
+                      <a href="" className="link">
+                        {article.headline}
+                      </a>
+                    </h3>
+                    <p>{article.content}</p>
+                  </header>
+                </article>
+              )
+            })}
+          </section>
+          <div id="CTA">
+            <section id="two">
+              <div className="inner description">
+                <header className="major">
+                  <h2>{data.content[0].contactheader}</h2>
+                </header>
+                <p>{data.content[0].contactbody}</p>
+              </div>
+            </section>
+          </div>
+        </div>
+
         {/* Contact */}
         <Contact />
 

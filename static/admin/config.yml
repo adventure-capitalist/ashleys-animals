@@ -11,7 +11,7 @@ collections:
     create: true
     identifier_field: "title"
     folder: "content"
-    file: "public/admin/content/homepage.md"
+    file: "content/homepage.md"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - label: "content"

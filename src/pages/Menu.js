@@ -6,7 +6,7 @@ export default () => (
   <div>
     <header id="header" className="alt">
       <Link to="/" className="logo">
-        <strong>Ashley's</strong> <span>Animal Adoption</span>
+        <strong>aiMS</strong> <span>Acheived</span>
       </Link>
       <nav>
         <a href="/Menu">Menu</a>

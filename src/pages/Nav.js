@@ -21,7 +21,7 @@ export default () => (
     <ul className="actions stacked">
       <li>
         <Link to="/#two" className="button primary fit">
-          Get started adopting
+          Start
         </Link>
       </li>
       <li>
