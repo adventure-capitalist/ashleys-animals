@@ -12,7 +12,7 @@ export default () => (
         <Link to="/#one">About</Link>
       </li>
       <li>
-        <Link to="/#two">Adoption</Link>
+        <Link to="/#two">Services</Link>
       </li>
       <li>
         <Link to="/#contact">Contact</Link>
