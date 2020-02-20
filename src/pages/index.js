@@ -31,7 +31,7 @@ const Index = props => {
         {/* Main */}
 
         <div id="main">
-          <section id="one" class="tiles">
+          <section id="one" className="tiles">
             {data.article.map((article, i) => {
               return (
                 <article>
