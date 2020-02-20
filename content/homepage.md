@@ -11,29 +11,30 @@ content:
       fancy articles
 article:
   - content: >-
-      We might be able to teach you how to be a boss, but that doesn't mean that
-      you will necessarily be a good boss, or that there will be a management
-      position available for you at your job.
+      Supporting leaders to help them find their authentic leadership brand;
+      namely what makes them unique as a leader. Boosting the confidence of
+      leaders which helps bolster trust and understanding in your leadership
+      abilities. 
     headline: 1-2-1 Business Leadership Coaching
     photo: /img/pic01.jpg
   - content: >-
-      We know the importance of keeping your employees fit, so we will help you
-      to start up a sports team just in case you need to coordinate a relay race
-      away from the tax man or something.
+      Facilitating increased alignment, productivity and levels of trust within
+      cross cultural / matrix teams. Helping teams to learn to use conflict both
+      constructively and productively. Helping new leaders integrate faster and
+      deliver results quicker while also encouraging them to prepare for and
+      step up to the challenges of a new role. 
     headline: Team Coaching Workshops
     photo: /img/pic04.jpg
   - content: >-
-      We will help you figure out how to get people to show up to meetings. It's
-      really quite easy. Just offer them snacks. Or booze. Or better yet both.
-      Throw in a free pen or two and wham bam you've practically got your own
-      conference.
+      Encouraging communication that helps to develop initiatives to instil the
+      desired values and behaviours within the organisation to drive commercial
+      success.
     headline: Meeting Facilitation
     photo: /img/pic03.png
   - content: >-
-      We will help you to turn your very ordinary car into your own crime
-      fighting robot. We don't recommend that you start pitting these robots
-      against each other. Your results will vary depending on the kind of car
-      that you started with.
+      Supporting positive transformations that allow companies to think
+      differently, and remain agile in terms of quickly adapting to a changeable
+      environment.
     headline: Enabling Transformations
     photo: /img/pic02.jpg
 ---
