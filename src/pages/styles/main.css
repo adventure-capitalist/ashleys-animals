@@ -1864,7 +1864,10 @@ article.special {
   height: 5vw;
   object-fit: cover;
   margin-top: 15%;
-  border: solid #21bbef 5px;
+  outline: solid #21bbef 0.5vh;
+  border: solid #e90022 0.3vh;
+  min-width: 100px;
+  min-height: 45px;
 }
 
 header.major {
