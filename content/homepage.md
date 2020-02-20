@@ -13,7 +13,7 @@ content:
       the biotechnology/food sector and the property investment sector which
       allow him the opportunity to put into implement the same sort of support
       and guidance he provides to others.
-    contactheader: About Us
+    contactheader: About
     subtitle: >-
       At aiMS Achieved, we aim to help businesses, individuals and organisations
       achieve success by facilitating change in an engaging, motivational and
