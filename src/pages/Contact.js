@@ -46,14 +46,14 @@ const Contact = props => (
           <div className="contact-method">
             <span className="icon solid alt fa-envelope"></span>
             <h3>Email</h3>
-            <a href="#">hello@aims-acheived.co.uk</a>
+            <a href="#">mark@aims-acheived.com</a>
           </div>
         </section>
         <section>
           <div className="contact-method">
             <span className="icon solid alt fa-phone"></span>
             <h3>Phone</h3>
-            <span>(989) 123-4567 x12387</span>
+            <span>+44 (0) 7786 126931</span>
           </div>
         </section>
         <section>
@@ -61,9 +61,11 @@ const Contact = props => (
             <span className="icon solid alt fa-home"></span>
             <h3>Address</h3>
             <span>
-              1234 Yellow Brick Road
+              Wey Court West
               <br />
-              Springfield, Surrey 00000
+              Union Road
+              <br />
+              Farnham, Surrey GU97PT
               <br />
               United Kingdom
             </span>

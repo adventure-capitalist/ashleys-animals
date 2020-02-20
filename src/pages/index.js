@@ -4,6 +4,7 @@ import Contact from "./Contact"
 import Footer from "./Footer"
 import { Link } from "gatsby"
 import { graphql } from "gatsby"
+import logo from "../../static/assets/logo.jpg"
 
 const Index = props => {
   const data = props.data.allFile.edges[0].node.childMarkdownRemark.frontmatter
@@ -13,7 +14,7 @@ const Index = props => {
         {/* Menu */}
         <header id="header" className="alt">
           <Link to="/" className="logo">
-            <strong>aiMS</strong> <span>acheived</span>
+            <img id="logo" src={logo} alt="logo" />
           </Link>
           <nav>
             <a href="/Menu">Menu</a>

@@ -9,29 +9,17 @@ export default () => (
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/#one">About</Link>
+        <Link to="/#one">Services</Link>
       </li>
       <li>
-        <Link to="/#two">Services</Link>
-      </li>
-      <li>
-        <Link to="/#contact">Contact</Link>
+        <Link to="/#two">About</Link>
       </li>
     </ul>
     <ul className="actions stacked">
       <li>
-        <Link to="/#two" className="button primary fit">
-          Start
+        <Link to="/#contact" className="button primary fit">
+          Contact
         </Link>
-      </li>
-      <li>
-        <a
-          href="https://paypal.me/ashleylaurel"
-          target="_blank"
-          className="button fit"
-        >
-          Donate
-        </a>
       </li>
     </ul>
   </div>

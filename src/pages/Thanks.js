@@ -6,7 +6,7 @@ export default () => (
     <section id="one">
       <div className="inner">
         <header className="major">
-          <h1>Success/Thank You Page</h1>
+          <h1>Success!</h1>
         </header>
         <span className="image main">{/* <img src={pic11} alt="" /> */}</span>
         <p>Thank you for contacting us!</p>
