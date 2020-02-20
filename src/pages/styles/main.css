@@ -3835,6 +3835,10 @@ body.is-preload #banner > .inner {
 
 /* Footer */
 
+svg {
+  font-size: 50px !important;
+}
+
 #footer .copyright {
   font-size: 0.8em;
   list-style: none;

@@ -1,4 +1,5 @@
 import React from "react"
+import { FaFacebookSquare, FaLinkedin } from "react-icons/fa"
 
 export default () => (
   <footer id="footer">
@@ -17,9 +18,8 @@ export default () => (
           <a
             href="https://www.facebook.com/AIMS-Achieved-LTD-113476420211591/"
             target="_blank"
-            className="icon brands alt fa-facebook-f"
           >
-            <span className="label">Facebook</span>
+            <FaFacebookSquare></FaFacebookSquare>
           </a>
         </li>
         {/* <li>
@@ -37,7 +37,7 @@ export default () => (
             target="_blank"
             className="icon brands alt fa-linkedin-in"
           >
-            <span className="label">LinkedIn</span>
+            <FaLinkedin></FaLinkedin>
           </a>
         </li>
       </ul>
