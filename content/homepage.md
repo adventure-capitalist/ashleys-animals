@@ -3,9 +3,17 @@ title: Home page
 content:
   - bannerheader: Welcome to aiMS
     contactbody: >-
-      Whey! Great! Feel free to get in touch with any questions you might have
-      and we will answer all of them for you swiftly.
-    contactheader: Intrigued?
+      Mark Sewell, the owner of aiMS achieved, has collected three decades of
+      experience the first 12 years of which were spent in the Pharmaceutical
+      industry before breaking into consultancy full-time. During his time in
+      the Pharmaceutical industry Mark successfully co-owned and co-ran a global
+      coaching consultancy. Mark is a member of the International Coaching
+      Federation (ICF) as well as the Institute of Personnel and Development
+      (CIPD). Mark also holds board level positions at two other companies in
+      the biotechnology/food sector and the property investment sector which
+      allow him the opportunity to put into implement the same sort of support
+      and guidance he provides to others.
+    contactheader: About Us
     subtitle: >-
       At aiMS Achieved, we aim to help businesses, individuals and organisations
       achieve success by facilitating change in an engaging, motivational and
@@ -20,16 +28,16 @@ article:
     photo: /img/pic01.jpg
   - content: >-
       Facilitating increased alignment, productivity and levels of trust within
-      cross cultural / matrix teams. Helping teams to learn to use conflict both
-      constructively and productively. Helping new leaders integrate faster and
-      deliver results quicker while also encouraging them to prepare for and
+      cross cultural or matrix style teams. Helping new leaders integrate faster
+      and deliver results quicker while also encouraging them to prepare for and
       step up to the challenges of a new role. 
     headline: Team Coaching Workshops
     photo: /img/pic04.jpg
   - content: >-
       Encouraging communication that helps to develop initiatives to instil the
       desired values and behaviours within the organisation to drive commercial
-      success.
+      success. Bringing teams together to discuss changes and ensure that
+      conflict is both constructive and productive. 
     headline: Meeting Facilitation
     photo: /img/pic03.png
   - content: >-
