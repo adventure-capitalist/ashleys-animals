@@ -7,8 +7,9 @@ content:
       and we will answer all of them for you swiftly.
     contactheader: Intrigued?
     subtitle: >-
-      We do a bunch of stuff here. You can find out more about it below in our
-      fancy articles
+      At aiMS Achieved, we aim to help businesses, individuals and organisations
+      achieve success by facilitating change in an engaging, motivational and
+      pragmatic way.
 article:
   - content: >-
       Supporting leaders to help them find their authentic leadership brand;
