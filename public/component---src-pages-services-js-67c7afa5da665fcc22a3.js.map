@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/Services.js"],"names":["Services","props"],"mappings":"6FAAA,gCAKeA,UAHE,SAAAC,GACf,OAAO","file":"component---src-pages-services-js-67c7afa5da665fcc22a3.js","sourcesContent":["import React from \"react\"\n\nconst Services = props => {\n  return <div></div>\n}\nexport default Services\n"],"sourceRoot":""}

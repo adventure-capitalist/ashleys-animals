@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "home"
+    label: "Home page"
+    create: true
+    identifier_field: "title"
+    folder: "content"
+    file: "content/homepage.md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "content"
+        name: "content"
+        widget: list
+        fields:
+          - { label: "Banner Header", name: "bannerheader", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "markdown" }
+          - { label: "Contact Header", name: "contactheader", widget: "string" }
+          - { label: "Contact body", name: "contactbody", widget: "markdown" }
+      - label: "Articles"
+        name: "article"
+        widget: "list"
+        identifier_field: title
+        fields:
+          - { label: "Headline", name: "headline", widget: "string" }
+          - { label: "Content", name: "content", widget: "markdown" }
+          - { label: "Photo", name: "photo", widget: "image" }
